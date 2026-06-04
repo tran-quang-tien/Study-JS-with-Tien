@@ -52,4 +52,4 @@ switch(luachon){
     default:
         console.log("ban nhap tao lao");
         break;
-}    
+}2    
