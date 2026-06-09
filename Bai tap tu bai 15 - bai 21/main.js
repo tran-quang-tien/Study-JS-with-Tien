@@ -40,3 +40,49 @@ if(b%2!==0){
     }
 }
 console.log(tongle);
+// Bài 18
+let n = 50
+let arr = []
+for (let i = 0;i<=50;i++){
+    if(i%3==0){
+        arr.push(i);
+
+    }
+}
+console.log(arr);
+//Bài 19
+let n = Number(prompt("nhap vao so n"));
+let giaithua = 1;
+let tong=0;
+for( let i = 1;i<=n;i++){
+    giaithua*=i;
+    tong+=giaithua
+}
+console.log(giaithua);
+//Bài 20
+for(let n =1;n<1000;n++){
+    let tong = 0;
+    for(let i =1;i<n;i++){
+        if(n%i==0){
+            tong+=i
+        }
+    }
+    if(tong==n){
+        console.log(n);
+    }
+}
+//Bài 21
+let n = Number(prompt("nhap vao so n"));
+if(n<2){
+    console.log(`khong phai so nguyen to`);
+}else{
+    let songuyento =true;
+    for(let i = 2;i<Math.sqrt(n);i++){
+        if(n%i==0){
+            songuyento = false;
+            break;
+        
+        }
+    }
+    if(songuyento){console.log(n+ "la so nguyen to")}
+}
