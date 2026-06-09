@@ -72,6 +72,8 @@ for(let n =1;n<1000;n++){
     }
 }
 //Bài 21
+let traloi ="yes"
+while(traloi=="yes"){
 let n = Number(prompt("nhap vao so n"));
 if(n<2){
     console.log(`khong phai so nguyen to`);
@@ -85,4 +87,6 @@ if(n<2){
         }
     }
     if(songuyento){console.log(n+ "la so nguyen to")}
+}
+    traloi=prompt("ban co muon tiep tuc khong")
 }
