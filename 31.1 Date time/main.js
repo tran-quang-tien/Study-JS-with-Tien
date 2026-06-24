@@ -1,0 +1,14 @@
+let currentDate = new Date();
+console.log(typeof currentDate);
+console.log(currentDate);
+let year = currentDate.getFullYear();
+let month = currentDate.getMonth()+1;
+let date = currentDate.getDate();
+let hours = currentDate.getHours();
+let minute = currentDate.getMinutes();
+let second = currentDate.getSeconds();
+console.log(year,month,date,hours,minute,second);
+let timestamp1 = new Date(0);
+console.log(timestamp1);
+let currentTimeStamps = new Date().getTime();
+console.log(currentTimeStamps/100000000);
